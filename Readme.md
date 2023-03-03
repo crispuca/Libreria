@@ -34,5 +34,6 @@ curl --location --request PUT 'http://localhost:8080/api/v1/books/1' \
 
 5-Borrar un libro: curl --location --request DELETE 'http://localhost:8080/api/v1/books/1'
 
+Puede usar la url http://localhost:8080/swagger-ui/index.html, para ver la documentacion en swagger
 
 Para iniciar el proyecto en client-libreria se debe utilizar en la raiz del proyecto npm start, para bajar los modulos que necesita el proyecto en react para correr
